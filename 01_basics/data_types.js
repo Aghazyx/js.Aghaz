@@ -39,16 +39,16 @@
 
 // arrays , objects , functions
  
-const heroes =  [ "thor", "spiderman","iron man"]
-console.log(heroes);
-let myObj = {
-    name: "Aghaz",
-    age: 20,
-    isLoggedIn: false
-}
-console.log(myObj);
+// const heroes =  [ "thor", "spiderman","iron man"]
+// console.log(heroes);
+// let myObj = {
+//     name: "Aghaz",
+//     age: 20,
+//     isLoggedIn: false
+// }
+// console.log(myObj);
 
-const myFunction = function(){
-    console.log("Hello World");
-}
-console.log(myFunction);
+// const myFunction = function(){
+//     console.log("Hello World");
+// }
+// console.log(myFunction);
