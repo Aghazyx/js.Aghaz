@@ -1,0 +1,1 @@
+console.log('hello everyone , we are going to discuss about arrays in this file')
