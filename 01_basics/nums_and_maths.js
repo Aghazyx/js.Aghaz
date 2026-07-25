@@ -1,0 +1,1 @@
+console.log("hellow everyone , this is a new file where discussion on numbers and maths will be done");
