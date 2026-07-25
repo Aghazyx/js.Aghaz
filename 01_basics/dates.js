@@ -1,0 +1,1 @@
+console.log("this file is to discuss date and time in javascript")
