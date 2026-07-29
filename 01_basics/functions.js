@@ -23,14 +23,15 @@
 // const result = addTwoNumbers(2,3)
 // console.log("result :",result)
 
-function loginUserMessage(username) {
-    if(username === undefined){
-          console.log("please enter a username");
-          return
-    }
-    else {
-             return `${username} just logged in`
-    }
-}
-console.log(loginUserMessage("Aghaz"))
-console.log(loginUserMessage())
+// function loginUserMessage(username) {
+//     if(username === undefined){
+//           console.log("please enter a username");
+//           return
+//     }
+//     else {
+//              return `${username} just logged in`
+//     }
+// }
+// console.log(loginUserMessage("Aghaz"))
+// console.log(loginUserMessage())
+
