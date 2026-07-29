@@ -35,3 +35,28 @@
 // console.log(loginUserMessage("Aghaz"))
 // console.log(loginUserMessage())
 
+// function calculateCartPrice(...num1)//the tripple dots are important to store ll values of num1 in the form of array 
+// {
+//    return num1
+// }
+// console.log(calculateCartPrice(500,600,700))
+
+// const user = { 
+//     usernme : "Aghaz",
+//     salary : 200000
+// }
+// function handleObject(anyobject){
+//     console.log(`Username is ${anyobject.username} and salary is ${anyobject.salary}`);
+ 
+// }
+// handleObject({
+//     username:"NAMAMI",
+//     salary:20000000
+// })
+
+const newArray = [100,200,300,400,500,600,700]
+function returnSecondValue(getArray){
+    return getArray[1]
+}
+console.log(returnSecondValue(newArray));
+console.log(returnSecondValue([1,2,3,4,5,6,7,8,9,10]));
