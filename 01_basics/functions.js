@@ -1,0 +1,1 @@
+// console.log("hellow everyone , this file is created to learn funtions from java script for my devlopment journey")
