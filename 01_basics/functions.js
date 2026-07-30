@@ -54,9 +54,55 @@
 //     salary:20000000
 // })
 
-const newArray = [100,200,300,400,500,600,700]
-function returnSecondValue(getArray){
-    return getArray[1]
-}
-console.log(returnSecondValue(newArray));
-console.log(returnSecondValue([1,2,3,4,5,6,7,8,9,10]));
+// const newArray = [100,200,300,400,500,600,700]
+// function returnSecondValue(getArray){
+//     return getArray[1]
+// }
+// console.log(returnSecondValue(newArray));
+// console.log(returnSecondValue([1,2,3,4,5,6,7,8,9,10]));
+
+
+// +++++++++++++++ Arrow function ++++++++++++++
+// const user = { 
+//     username : "Hitesh",
+//     price : 999,
+//     welcomeMessage : function(){
+//         console.log(`${this.username} , wellcome to the website`);
+//         console.log(this)
+//     }
+// }
+// user.welcomeMessage()
+// user.username = "Aghaz"
+// user.welcomeMessage()
+
+// console.log(this) this doesnt have access to local scope 
+
+
+// function chai(){
+//     console.log(this);
+// }
+// chai()
+
+
+// const chai = () => {
+//     let username = "Aghaz"
+//     console.log(this.username);
+//     console.log(this)
+// }
+// chai()
+
+// () => {} this is the asyntax of arrow function 
+
+// const addTwo = ( num1 , num2) => {
+//     return num1 + num2
+// }
+
+// using return keyword is explicit and not using return that is in arrow function is implicit return
+// const addTwo = ( num1 , num2) =>  num1 + num2
+// console.log(addTwo(8,9))
+
+// IMMEDIETLY INVOKED FUNCTION EXPRESSION (IIFE)
+
+// (function chai(){
+//     console.log("DB CONNECTED");
+// })()
