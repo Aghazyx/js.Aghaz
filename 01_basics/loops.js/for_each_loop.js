@@ -3,6 +3,7 @@ const coding = ["js","py","java","python","cpp"]
 //   console.log(item);
 // })
 
-coding.forEach( (item) => {
-    console.log(item);
-})
+// coding.forEach( (item) => {
+//     console.log(item);
+// })
+
